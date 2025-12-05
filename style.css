@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+}
+
+.credit {
+    font-size: 14px;
+    color: #444;
+    margin-top: -10px;
+}
+
+#game-area {
+    width: 500px;
+    height: 300px;
+    background: white;
+    border: 2px solid black;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#target {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
